@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {LogoTrip} from "../../assets/img/logo_trip.png";
 
 function Navbar (){
     return(
@@ -11,7 +10,7 @@ function Navbar (){
                     <Link to="/destinasi" className="font-medium text-md hover:border-b-4 rounded-b-sm border-pink-500 duration-200">Destinasi</Link>
                 </div>
                 <div>
-                    <img src={LogoTrip} alt="" srcset="" width={120} />
+                    <img src="../../../public/logo_trip.png" alt="" srcset="" width={120} />
                 </div>
                 <div className="mt-8 ">
                     <Link to="/login" className="bg-pink-300 text-pink-500 font-semibold mr-5 md:px-5 md:py-2 rounded-xl hover:bg-pink-500 hover:text-white duration-300">Login</Link>
