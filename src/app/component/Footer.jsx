@@ -7,7 +7,7 @@ function Footer(){
                 <div className="lg:flex lg:justify-between">
                 <div className="">
                     <a href="https://www.smooets.com/" className="flex items-center">
-                        <img src="../../../public/logo_trip.png" className="" width={200} />
+                        <img src="../../../logo_trip.png" className="" width={200} />
                     </a>
                 </div>
                 <div className="grid grid-cols-2 gap-8 md:gap-0 lg:grid-cols-4 py-10 align-middle">
@@ -48,10 +48,10 @@ function Footer(){
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Get The App</h2>
                         <ul className="text-gray-500 dark:text-gray-400 font-medium grid md:grid-cols-2 grid-cols-1 gap-5">
                             <li className="mb-4">
-                               <img src="../../../public/play_store.png" alt="" width={150} />
+                               <img src="../../../play_store.png" alt="" width={150} />
                             </li>
                             <li>
-                                <img src="../../../public/apple_store.png" alt="" width={150} />
+                                <img src="../../../apple_store.png" alt="" width={150} />
                             </li>
                         </ul>
                     </div>

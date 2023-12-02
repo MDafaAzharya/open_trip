@@ -10,7 +10,7 @@ function Login(){
                     </div>
                     <div className="w-6/12">
                         <div className="flex justify-center">
-                        `   <img src="../../../public/logo_trip.png" alt="" width={180} className="flex justify-center" />
+                        `   <img src="../../../logo_trip.png" alt="" width={180} className="flex justify-center" />
                         </div>
                         <div className="grid grid-cols-1 mx-12">
                             <label htmlFor="" className="text-slate-600 mb-3">Username</label>
@@ -39,7 +39,7 @@ function Login(){
             <div className="lg:hidden">
                <div className="bg-white w-10/12 mx-auto rounded-lg">
                     <div className="flex justify-center">
-                        `   <img src="../../../public/logo_trip.png" alt="" width={150} className="flex justify-center" />
+                        `   <img src="../../../logo_trip.png" alt="" width={150} className="flex justify-center" />
                         </div>
                     <div className="grid grid-cols-1 mx-12">
                         <label htmlFor="" className="text-slate-600 mb-3">Username</label>

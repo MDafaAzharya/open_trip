@@ -199,13 +199,13 @@ const Beranda = () => {
                     <div className='mt-8'>
                         <h2 className="mb-6 text-sm font-semibold text-white">Get The App</h2>
                         <div className="text-gray-500 dark:text-gray-400 font-medium gap-3 flex justify-start">
-                            <img src="../../../public/play_store.png" alt="" width={80} />
-                            <img src="../../../public/apple_store.png" alt="" width={80} />
+                            <img src="../../../play_store.png" alt="" width={80} />
+                            <img src="../../../apple_store.png" alt="" width={80} />
                         </div>
                     </div>
                 </div>
                 <div className='flex mx-auto'>
-                    <img src="../../../public/mobile_mockup.png" alt="" width={350} />
+                    <img src="../../../mobile_mockup.png" alt="" width={350} />
                 </div>
             </div>
         </div>

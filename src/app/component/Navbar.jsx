@@ -10,7 +10,7 @@ function Navbar (){
                     <Link to="/destinasi" className="font-medium text-md hover:border-b-4 rounded-b-sm border-pink-500 duration-200">Destinasi</Link>
                 </div>
                 <div>
-                    <img src="../../../public/logo_trip.png" alt="" srcset="" width={120} />
+                    <img src="../../../logo_trip.png" alt="" srcset="" width={120} />
                 </div>
                 <div className="mt-8 ">
                     <Link to="/login" className="bg-pink-300 text-pink-500 font-semibold mr-5 md:px-5 md:py-2 rounded-xl hover:bg-pink-500 hover:text-white duration-300">Login</Link>
@@ -20,7 +20,7 @@ function Navbar (){
             {/* Mobile Navigation */}
             <div className="md:hidden ">
                 <div className="flex justify-center">
-                    <img src="../../../public/logo_trip.png" alt="" srcset="" width={150} />
+                    <img src="../../../logo_trip.png" alt="" srcset="" width={150} />
                 </div>
                 <div className="grid grid-cols-4 mx-8">
                     <Link to="/beranda" className="text-pink-500 font-semibold text-center rounded-xl hover:bg-pink-500 hover:text-white duration-300 py-1">Beranda</Link>
