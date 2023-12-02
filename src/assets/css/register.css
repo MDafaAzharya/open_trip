@@ -1,0 +1,60 @@
+.page{
+    background-image: url('https://media.istockphoto.com/id/1220327476/id/foto/kuil-borobodur-saat-matahari-terbit.jpg?s=1024x1024&w=is&k=20&c=fHebZTud5-c-Hk7g2w6qFak0Hrnm64uhHftlwz-6dXo=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vw;
+}
+
+.login_bg{
+    background-image: url('https://images.pexels.com/photos/2659475/pexels-photo-2659475.jpeg?cs=srgb&dl=pexels-stijn-dijkstra-2659475.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+}
+
+.select{
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 1em;
+}
+
+.bg_beranda{
+    background-image: url('https://images.pexels.com/photos/2659475/pexels-photo-2659475.jpeg?cs=srgb&dl=pexels-stijn-dijkstra-2659475.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vw;
+}
+
+.foto_detail{
+    height: 990px ;
+    width: 550px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .page{
+        height: 160vw;
+    }
+    .login_bg{
+        height: 120vw;
+    }
+    .bg_beranda{
+        height: 40vw;
+    }
+    .foto_detail{
+        height: 490px ;
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .foto_detail{
+        height: 380px ;
+        width: 780px;
+    }
+    .page{
+        height: 70vw;
+    }
+}
