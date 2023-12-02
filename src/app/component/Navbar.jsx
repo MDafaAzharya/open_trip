@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {LogoTrip} from "../../../public/logo_trip.png";
+import {LogoTrip} from "../../assets/img/logo_trip.png";
 
 function Navbar (){
     return(

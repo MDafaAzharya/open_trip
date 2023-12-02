@@ -7,7 +7,7 @@ function Footer(){
                 <div className="lg:flex lg:justify-between">
                 <div className="">
                     <a href="https://www.smooets.com/" className="flex items-center">
-                        <img src="../../../public/logo_trip.png" className="" width={200} />
+                        <img src="../../assets/img/logo_trip.png" className="" width={200} />
                     </a>
                 </div>
                 <div className="grid grid-cols-2 gap-8 md:gap-0 lg:grid-cols-4 py-10 align-middle">
